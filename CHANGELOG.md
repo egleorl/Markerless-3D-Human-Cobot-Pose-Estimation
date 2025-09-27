@@ -5,9 +5,9 @@
   - Added `3D_POSE/coord_extract_original.py` for running YOLOv8-based pose estimation (human and UR10e cobot) on extracted frames, and for reconstructing/exporting 3D keypoints with confidence scores.
 
 - **Training pipeline:**
-  - Added `COBOT_MODEL/train.py` and `config.yaml` for custom training of the cobot pose estimation model with YOLOv8.
+  - Added `COBOT_MODEL/train.py` and `COBOT_MODEL/config.yaml` for custom training of the cobot pose estimation model with YOLOv8.
   - Integrated dataset handling for images and YOLO-format keypoint annotations.
-  - Added `COBOT_MODEL/config.yaml` support for custom UR10e keypoint configuration (12 keypoints, including main joints, additional structural points, and gripper).
+  - Added support for custom UR10e keypoint configuration (12 keypoints, including main joints, additional structural points, and gripper).
 
 - **Validation and results:**
   - Included folders for storing validation metrics, training logs, and custom-trained weights in `COBOT_MODEL/runs/`.
