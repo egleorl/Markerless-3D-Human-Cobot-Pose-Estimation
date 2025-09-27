@@ -1,3 +1,11 @@
+# This file is part of Markerless-3D-Human-Cobot-Pose-Estimation
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU Affero General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# Portions derived from Ultralytics YOLO, Copyright © Ultralytics Inc., AGPL-3.0.
+
 import cv2
 import numpy as np
 from ultralytics import YOLO
@@ -277,4 +285,5 @@ print(f"[✓] Annotated video saved: {video_output_path}  (FPS≈{fps:.2f}, size
 
 # === USEFUL REFERENCES ===
 # https://github.com/orgs/ultralytics/discussions/18822#discussioncomment-12688529
+
 # https://dev.realsenseai.com/docs/projection-in-intel-realsense-sdk-20
