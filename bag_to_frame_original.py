@@ -1,3 +1,11 @@
+# This file is part of Markerless-3D-Human-Cobot-Pose-Estimation
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU Affero General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# Portions derived from Ultralytics YOLO, Copyright © Ultralytics Inc., AGPL-3.0.
+
 import pyrealsense2 as rs
 import numpy as np
 import cv2
@@ -70,4 +78,5 @@ finally:
 
 # === USEFUL REFERENCES ===
 # useful references links: https://github.com/IntelRealSense/librealsense/issues/13755#issuecomment-2659343709 
+
 # https://github.com/IntelRealSense/librealsense/issues/13867#issuecomment-2736919072
