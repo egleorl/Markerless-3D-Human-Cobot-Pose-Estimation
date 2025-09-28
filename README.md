@@ -16,9 +16,16 @@ This repository provides a markerless pipeline for the concurrent 3D pose estima
   - `train.py`: Script used to train the custom YOLOv8 model for the cobot.
   - `config.yaml`: Configuration file for keypoint layout and training parameters.
 
-- **Data and Results (COBOT_MODEL/RUNS):**
-  - `data/`: Contains the sample of annotated images and labels for training/validation.
+- **Data and Results (COBOT_MODEL):**
   - `runs/`: Contains validation metrics, training logs, and custom-trained model weights.
+  - # Data Folder
+The dataset used for training and validation is available at: [Zenodo/Google Drive/Figshare link here].
+
+To use the data:
+1. Download and unzip the archive.
+2. Place the files in this `data/` folder as specified in the main README.
+
+If you need access, contact: eglemaria.orlando@phd.unipd.it
 
 ---
 
