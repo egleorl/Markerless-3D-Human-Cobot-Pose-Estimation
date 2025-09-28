@@ -36,8 +36,6 @@ If you use this project, please cite both this repository and Ultralytics as fol
 
 > This project builds upon Ultralytics YOLO ([GitHub](https://github.com/ultralytics/ultralytics)), licensed under AGPL-3.0. For details, see the upstream repository.
 
-Generate an up-to-date BibTeX entry from the ["Cite this repository" button](https://github.com/ultralytics/ultralytics) for Ultralytics.
-
 ### **Related Paper**
 
 If you use this codebase or datasets for your research, please also cite:
