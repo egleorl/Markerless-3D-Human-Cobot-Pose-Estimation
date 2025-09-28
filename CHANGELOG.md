@@ -1,3 +1,5 @@
+# Changelog
+
 ## [XX-XX-XX] Initial public release
 
 - **Data processing scripts:**
@@ -11,10 +13,16 @@
 
 - **Validation and results:**
   - Included folders for storing validation metrics, training logs, and custom-trained model weights in `COBOT_MODEL/runs/`.
-  - Provided example data and annotation structure in `cOBOT_MODEL/data/` with subfolders for `images` and `labels` (train/val split).
 
 - **Documentation and compliance:**
   - Added comprehensive `README.md` with project overview, citation instructions, authors, acknowledgments, license/compliance notes, and project structure.
   - Included `NOTICE` file for Ultralytics YOLO attribution.
   - Added full AGPL-3.0 `LICENSE` for code, weights, and derived materials.
-  - Included this `CHANGELOG.md` to record major changes and state modifications from the original Ultralytics codebase.
+  - Included this `CHANGELOG.md` to record major changes and state modifications from the original Ultralytics YOLO codebase.
+
+---
+
+**Data access:** The dataset is not included in this repository due to size constraints.  
+If you wish to access the data, **please contact eglemaria.orlando@phd.unipd.it**.
+
+---
