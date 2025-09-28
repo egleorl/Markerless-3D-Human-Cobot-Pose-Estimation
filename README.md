@@ -8,24 +8,31 @@ This repository provides a markerless pipeline for the concurrent 3D pose estima
 
 ## Overview
 
-- **Scripts for Data Extraction and Processing (3D_POSE):**
+- **Scripts for Data Extraction and Processing (`3D_POSE/`):**
   - `bag_to_frame_original.py`: Extracts synchronized RGB and depth frames from Intel RealSense `.bag` recordings.
   - `coord_extract_original.py`: Runs YOLOv8-based pose estimation on the extracted frames and reconstructs 3D keypoints for both the human and the UR10e cobot.
 
-- **Training Materials (COBOT_MODEL):**
+- **Training Materials (`COBOT_MODEL/`):**
   - `train.py`: Script used to train the custom YOLOv8 model for the cobot.
   - `config.yaml`: Configuration file for keypoint layout and training parameters.
 
-- **Data and Results (COBOT_MODEL):**
+- **Results (`COBOT_MODEL/`):**
   - `runs/`: Contains validation metrics, training logs, and custom-trained model weights.
-  - # Data Folder
-The dataset used for training and validation is available at: [Zenodo/Google Drive/Figshare link here].
+
+---
+
+## Data Access
+
+The dataset used for training and validation is not included in this repository due to size constraints.
+
+**To request access to the data:**
+- Please contact: **eglemaria.orlando@phd.unipd.it**
+- If/when available, you will receive a download link (e.g., Zenodo, Google Drive, Figshare).
 
 To use the data:
-1. Download and unzip the archive.
-2. Place the files in this `data/` folder as specified in the main README.
-
-If you need access, contact: eglemaria.orlando@phd.unipd.it
+1. Download and unzip the archive you receive.
+2. The extracted `data/` folder will already be organized with the conventional structure (`images/train`, `images/val`, `labels/train`, `labels/val`).
+3. Simply place the entire `data/` folder in the same directory as the training script (`train.py`) and configuration file (`config.yaml`).
 
 ---
 
@@ -50,7 +57,7 @@ If you use this codebase or datasets for your research, please also cite:
 ```
 @article{Orlando2025MarkerlessHRC,
   title={Bridging Humans and Cobots: A Markerless Framework for 3D Pose Estimation in Shared Workspaces},
-  author={Egle Maria Orlando, Federico Maria Lorusso, Federica Nenna, Michele Mingardi, Giulia Buodo, Luciano Gamberini
+  author={Egle Maria Orlando, Federico Maria Lorusso, Federica Nenna, Michele Mingardi, Giulia Buodo, Luciano Gamberini},
   journal={Submitted/To Appear},
   year={2025},
   institution={University of Padova}
@@ -68,11 +75,13 @@ If you use this codebase or datasets for your research, please also cite:
 - **Giulia Buodo** (University of Padova)
 - **Luciano Gamberini** (University of Padova)
 
-  ## Acknowledgments
+---
+
+## Acknowledgments
 
 - [Ultralytics](https://ultralytics.com) for the YOLOv8 base code and all dataset contributors.
-- [Intel RealSense SDK 2.0] (https://github.com/IntelRealSense/librealsense) (2024). Intel Corporation for  the hardware and SDK used for RGB-D data acquisition in this study.
-- Lambrecht et al. (2019) for  part of the dataset used for cobot training.
+- [Intel RealSense SDK 2.0](https://github.com/IntelRealSense/librealsense) (2024), Intel Corporation, for the hardware and SDK used for RGB-D data acquisition.
+- Lambrecht et al. (2019) for part of the dataset used for cobot training.
 
 This study was carried out within the PNRR research activities of the consortium iNEST (Interconnected North-Est Innovation Ecosystem) funded by the European Union Next-GenerationEU (Piano Nazionale di Ripresa e Resilienza (PNRR) – Missione 4 Componente 2, Investimento 1.5 – D.D. 1058 23/06/2022, ECS_00000043).
 
@@ -81,6 +90,3 @@ This study was carried out within the PNRR research activities of the consortium
 ## State Changes
 
 See `CHANGELOG.md` for details of changes and custom modules added to the original Ultralytics YOLO codebase.
-
----
-
