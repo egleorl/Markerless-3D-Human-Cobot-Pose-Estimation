@@ -27,7 +27,7 @@ The dataset used for training and validation is not included in this repository 
 
 **To request access to the data:**
 - Please contact: **eglemaria.orlando@phd.unipd.it**
-- If/when available, you will receive a download link (e.g., Zenodo, Google Drive, Figshare).
+- When available, you will receive a download link.
 
 To use the data:
 1. Download and unzip the archive you receive.
