@@ -66,7 +66,7 @@ If you use this codebase or datasets for your research, please also cite:
   ## Acknowledgments
 
 - [Ultralytics](https://ultralytics.com) for the YOLOv8 base code and all dataset contributors.
-- Intel RealSense SDK 2.0. (2024). Intel Corporation for  the hardware and SDK used for RGB-D data acquisition in this study.
+- [Intel RealSense SDK 2.0] (https://github.com/IntelRealSense/librealsense) (2024). Intel Corporation for  the hardware and SDK used for RGB-D data acquisition in this study.
 - Lambrecht et al. (2019) for  part of the dataset used for cobot training.
 
 This study was carried out within the PNRR research activities of the consortium iNEST (Interconnected North-Est Innovation Ecosystem) funded by the European Union Next-GenerationEU (Piano Nazionale di Ripresa e Resilienza (PNRR) – Missione 4 Componente 2, Investimento 1.5 – D.D. 1058 23/06/2022, ECS_00000043).
