@@ -21,7 +21,7 @@ This repository provides a markerless pipeline for the concurrent 3D pose estima
 
 ---
 
-## Data Access
+## Dataset Access
 
 The dataset used for training and validation is not included in this repository due to size constraints.
 
