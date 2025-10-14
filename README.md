@@ -10,7 +10,7 @@ This repository provides a markerless pipeline for the concurrent 3D pose estima
 
 - **Scripts for Data Extraction and Processing (`3D_POSE/`):**
   - `bag_to_frame_original.py`: Extracts synchronized RGB and depth frames from Intel RealSense `.bag` recordings.
-  - `coord_extract_original.py`: Runs YOLOv8-based pose estimation on the extracted frames and reconstructs 3D keypoints for both the human and the UR10e cobot.
+  - `coord_extract_original.py`: Runs YOLOv8-based pose estimation on the extracted frames and reconstructs 3D keypoints for both the human and the UR10e cobot in a temporally synchronized manner. The output is a single CSV file containing the timestamped 3D coordinates and confidence scores for all keypoints and other details.
 
 - **Training Materials (`COBOT_MODEL/`):**
   - `train.py`: Script used to train the custom YOLOv8 model for the cobot.
