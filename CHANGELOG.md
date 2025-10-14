@@ -22,7 +22,7 @@
 
 ---
 
-**Data access:** The dataset is not included in this repository due to size constraints.  
+**Data access:** The training dataset is not included in this repository due to size constraints.  
 If you wish to access the data, **please contact eglemaria.orlando@phd.unipd.it**.
 
 ---
