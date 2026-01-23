@@ -56,8 +56,9 @@ If you use this codebase or datasets for your research, please also cite:
 
 ```
 @article{Orlando2025MarkerlessHRC,
-  title={Bridging Humans and Cobots: A Markerless Framework for 3D Pose Estimation in Shared Workspaces},
-  author={Egle Maria Orlando, Federico Maria Lorusso, Federica Nenna, Michele Mingardi, Giulia Buodo, Luciano Gamberini},
+  title={Capturing Shared Actions and
+Coordination in Collaborative Workspaces: A Markerless Pipeline for Synchronized Human-Robot 3D Pose Estimation},
+  author={Egle Maria Orlando, Federica Nenna, Federico Maria Lorusso, Michele Mingardi, Giulia Buodo, Luciano Gamberini},
   journal={Submitted/To Appear},
   year={2025},
   institution={University of Padova}
@@ -69,8 +70,8 @@ If you use this codebase or datasets for your research, please also cite:
 ## Authors
 
 - **Egle Maria Orlando** (University of Padova, eglemaria.orlando@phd.unipd.it)
-- **Federico Maria Lorusso** (University of Padova)
 - **Federica Nenna** (University of Padova)
+- **Federico Maria Lorusso** (University of Padova)
 - **Michele Mingardi** (University of Padova)
 - **Giulia Buodo** (University of Padova)
 - **Luciano Gamberini** (University of Padova)
