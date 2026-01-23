@@ -55,12 +55,12 @@ If you use this project, please cite both this repository and Ultralytics as fol
 If you use this codebase or datasets for your research, please also cite:
 
 ```
-@article{Orlando2025MarkerlessHRC,
+@article{tobeupdated,
   title={Capturing Shared Actions and
 Coordination in Collaborative Workspaces: A Markerless Pipeline for Synchronized Human-Robot 3D Pose Estimation},
   author={Egle Maria Orlando, Federica Nenna, Federico Maria Lorusso, Michele Mingardi, Giulia Buodo, Luciano Gamberini},
-  journal={Submitted/To Appear},
-  year={2025},
+  journal={tobeupdated},
+  year={tobeupdated},
   institution={University of Padova}
 }
 ```
