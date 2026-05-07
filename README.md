@@ -55,13 +55,12 @@ If you use this project, please cite both this repository and Ultralytics as fol
 If you use this codebase or datasets for your research, please also cite:
 
 ```
-@article{tobeupdated,
-  title={Capturing Shared Actions and
-Coordination in Collaborative Workspaces: A Markerless Pipeline for Synchronized Human-Robot 3D Pose Estimation},
-  author={Egle Maria Orlando, Federica Nenna, Federico Maria Lorusso, Michele Mingardi, Giulia Buodo, Luciano Gamberini},
-  journal={tobeupdated},
-  year={tobeupdated},
-  institution={University of Padova}
+@article{orlando2026capturing,
+  title={Capturing Shared Actions and Coordination in Collaborative Workspaces: A Markerless Pipeline for Synchronized Human-Robot 3D Pose Estimation},
+  author={Orlando, Egle Maria and Nenna, Federica and Lorusso, Federico Maria and Mingardi, Michele and Buodo, Giulia and Gamberini, Luciano},
+  journal={IEEE Access},
+  year={2026},
+  publisher={IEEE}
 }
 ```
 
